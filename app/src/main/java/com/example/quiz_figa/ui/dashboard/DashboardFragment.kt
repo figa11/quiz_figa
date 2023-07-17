@@ -30,7 +30,7 @@ class DashboardFragment : Fragment() {
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        binding.icon2.setOnClickListener{
+        binding.icon22.setOnClickListener{
             val Intent = Intent(this@DashboardFragment.requireContext(),ActivityLogin::class.java)
             startActivity(Intent)
         }
